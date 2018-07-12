@@ -4,6 +4,12 @@ h1 {
     font-weight: 600;
     color: #303C6C;
 }
+.center-piece {
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+}
 .navbar-header {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -30,23 +36,64 @@ h1 {
   }
 .nav-ul {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     color:#303C6C;
     font-size: 18px;
     text-transform: uppercase;
+    padding-right: 30px;
 }
 .nav-ul-active {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     color:#fff;
     font-size: 18px;
     text-transform: uppercase;
+    padding-right: 30px;
 }
-#myVideo {
+.myVideoBackground {
     position: fixed;
+    top: 0;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+.myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
     min-height: 100%;
     opacity: 0.9;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+.video-header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #303C6C;
+}
+.wrap {
+    max-width: 960px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    text-align: center;
+}
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+.fullscreen-video-wrap video {
+    min-height: 100%;
+    min-width: 100%;
 }
