@@ -1,0 +1,52 @@
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #303C6C;
+}
+.navbar-header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color:#303C6C;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-left:20px;
+}
+.navbar-header-active{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-left:20px;
+}
+.navbar {
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+  }
+.nav-ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:#303C6C;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav-ul-active {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:#fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: 0.9;
+}
