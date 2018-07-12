@@ -12,19 +12,21 @@ h1 {
 }
 .navbar-header {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color:#303C6C;
     text-transform: uppercase;
     font-size: 22px;
     padding-left:20px;
+    letter-spacing: 3px;
 }
 .navbar-header-active{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
     color:#fff;
     text-transform: uppercase;
     font-size: 22px;
     padding-left:20px;
+    letter-spacing: 5px;
 }
 .navbar {
     height: 80px;
@@ -35,7 +37,7 @@ h1 {
     transition: background-color 1s ease 0s;
   }
 .nav-ul {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Londrina Solid', cursive;
     font-weight: 200;
     color:#303C6C;
     font-size: 18px;
@@ -43,7 +45,7 @@ h1 {
     padding-right: 30px;
 }
 .nav-ul-active {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Londrina Solid', cursive;
     font-weight: 200;
     color:#fff;
     font-size: 18px;
@@ -96,4 +98,8 @@ h1 {
 .fullscreen-video-wrap video {
     min-height: 100%;
     min-width: 100%;
+}
+.icon {
+   height: 35px;
+   width: 35px;
 }
