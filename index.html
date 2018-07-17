@@ -16,35 +16,32 @@
     <title>Bailey McDonald</title>
   </head>
   <body>
-    <header>
-        <div class="container-fluid">
-            <nav class="row navbar navbar-expand-xl navbar-fixed-top">
-                <div class="navbar-header-active col-6">
-                    <a class="justify-content-start">BAILEY <img class="icon" src="_img/icon-yellow.png" alt="icon"> MCDONALD</a>
-                </div>
-                <div class="col-6">
-                    <ul class="nav nav-ul-active justify-content-end">
-                        <li><a class="nav-link">About</a></li>
-                        <li><a class="nav-link">Media</a></li>
-                        <li><a class="nav-link">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+    <!-- NAVBAR -->
+    <nav id="#page-top" class="navbar navbar-expand-lg navbar-dark navbar-fixed-top">
+        <a  id="nav-logo" class="justify-content-start navbar-header-active nounderline" href="#page-top">BAILEY <img class="icon" src="_img/icon-yellow.png" alt="icon"> MCDONALD</a>
+        <a  id="nav-logo2" class="justify-content-start navbar-header-active nounderline" href="#page-top"><img class="icon" src="_img/icon-yellow.png" alt="icon"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-ul-active order-3" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Media</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+          </div>
         </div>
-
-        <div class="container-fluid">
-            <!-- The video -->
-            <div class="myVideoBackground">
-                <video autoplay muted loop class="myVideo">
-                    <source src="_img/myVid.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div>
-                <h2 class="center-piece"><img  class="img-fluid" src="_img/logo.png"></h2>
-            </div>
-        </div>
-    </header>
-    
+      </nav>
+    <!-- VIDEO BACKGROUND -->
+    <div class="container-fluid">
+        <video autoplay muted loop>
+          <source src="_img/myVid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+    <!-- LOGO CENTERPIECE  -->
+    <div class="logo-container">
+        <h2 class="img-center"><img src="_img/logo.png" class="img-fluid img-centered"></h2>
+    </div>
     <!-- My JS -->
     <script src="_js/script.js"></script>
     <!-- Optional JavaScript -->
