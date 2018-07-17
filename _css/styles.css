@@ -208,4 +208,7 @@ a.scrolled {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
-
+.fa-navicon {
+    font-size: 30px !important;
+    color: #fff;
+}
