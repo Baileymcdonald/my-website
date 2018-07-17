@@ -183,6 +183,25 @@ button:focus {
         height: 45px;
         width: 45px;
     }
+    .navbar {
+        height: 60px;
+        background-color: #fff;
+        border: none;
+        color: white;
+        z-index: 100;
+        transition: background-color 1s ease 0s;
+      }
+      video {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+      .fa-navicon {
+        font-size: 30px !important;
+        color: #303C6C !important;
+    }
 }
 .navbar-fixed-top.scrolled {
     background-color: #fff !important;
@@ -211,4 +230,16 @@ a.scrolled {
 .fa-navicon {
     font-size: 30px !important;
     color: #fff;
+}
+.fa-navicon.scrolled {
+    font-size: 30px !important;
+    color: #303C6C;
+}
+.fill {
+    margin-top: 1000px;
+}
+body {
+    display: block;
+    height: 100%;
+    width: 100%;
 }

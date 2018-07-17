@@ -18,3 +18,9 @@ $(document).ready(function() {
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
   });
+  $(document).ready(function() {
+    $(window).scroll(function () {
+      var $nav = $(".fa-navicon");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
