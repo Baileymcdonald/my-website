@@ -4,6 +4,9 @@ h1 {
     font-weight: 600;
     color: #303C6C;
 }
+.content {
+    position: absolute;
+}
 .center-piece {
     font-family: 'Permanent Marker', cursive;
     color: #fff;
@@ -42,10 +45,10 @@ h1 {
 nav a:hover {
     color: #fff;
 }
-.nav-ul {
+.nav-ul-active.scrolled {
     font-family: 'Londrina Solid', cursive;
     font-weight: 200;
-    color:#303C6C;
+    color:#303C6C !important;
     font-size: 20px;
     text-transform: uppercase;
     padding-right: 30px;
@@ -54,7 +57,7 @@ nav a:hover {
 .nav-ul-active {
     font-family: 'Londrina Solid', cursive;
     font-weight: 200;
-    color:#fff;
+    color:#303C6C !important;
     font-size: 20px;
     text-transform: uppercase;
     padding-right: 30px;
@@ -181,3 +184,28 @@ button:focus {
         width: 45px;
     }
 }
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+.navbar.scrolled {
+    height: 80px;
+    background-color: #fff;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 0.5s ease 0s;
+}
+a {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a.scrolled {
+    color: #303C6C !important;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
