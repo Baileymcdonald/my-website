@@ -191,6 +191,14 @@ button:focus {
         z-index: 100;
         transition: background-color 1s ease 0s;
       }
+      .navbar.scrolled {
+        height: 60px !important;
+        background-color: #fff;
+        border: none;
+        color: white;
+        z-index: 100;
+        transition: background-color 0.5s ease 0s;
+    }
       video {
         position: absolute;
         top: 60px;
@@ -201,6 +209,9 @@ button:focus {
       .fa-navicon {
         font-size: 30px !important;
         color: #303C6C !important;
+    }
+    .img-center {
+        margin-top: 40px;
     }
 }
 .navbar-fixed-top.scrolled {
